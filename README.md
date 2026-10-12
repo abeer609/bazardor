@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 বাজার দর — BazarDor
 
-## Getting Started
+**বাজার দর** is a responsive web application that helps users explore essential product prices, compare market rates, and track daily price changes across different categories and markets in Bangladesh.
 
-First, run the development server:
+Built with Next.js, TypeScript, Tailwind CSS, and Better Auth, BazarDor provides an intuitive Bengali-language shopping market price experience across desktop, tablet, and mobile devices.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **📊 Daily Price Tracking:** Explore products whose prices have increased or decreased, with percentage change indicators.
+- **🛍️ Product Catalog:** Browse essential products with their names, units, current prices, and price trends.
+- **🔎 Category Filtering:** Discover products by category and sort them by price from lowest to highest or highest to lowest.
+- **📍 Product Details:** View product summaries, minimum, maximum, and average prices, and market-wise pricing information.
+- **🔐 Authentication:** Register and sign in using email and password, Google, or GitHub.
+- **👤 Profile Management:** View profile information and update your name.
+- **🛡️ Protected Routes:** Restrict access to product details and other protected pages to authenticated users.
+- **⏳ Loading States:** Display skeleton loaders while product and category data is being fetched.
+- **🔔 Toast Notifications:** Provide feedback for authentication, validation errors, and other user actions.
+- **📱 Responsive Design:** Deliver a consistent experience across mobile, tablet, and desktop screen sizes.
+- **🚫 Custom 404 Page:** Display a friendly error page with a link back to the homepage for

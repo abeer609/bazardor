@@ -2,8 +2,8 @@ import { Suspense } from "react";
 import { redirect } from "next/navigation";
 import { headers } from "next/headers";
 import { auth } from "@/lib/auth";
-import ProfileForm from "@/components/ProfileForm";
-import { ProfileSkeleton } from "@/components/Skeleton";
+import { ProfileSkeleton } from "@/app/components/Skeletons";
+import ProfileForm from "../components/ProfileForm";
 
 export default function ProfilePage() {
   return (

@@ -1,7 +1,11 @@
-import { getProducts } from "@/lib/api";
+import { getProducts, Product } from "@/lib/api";
 import { changeMeta, formatNumber, formatPct, unitLabel } from "@/lib/format";
 
-function TickerGroup({ products, hidden = false }) {
+interface Props {
+  products: Product[];
+  hidden?: boolean;
+}
+function TickerGroup({ products, hidden = false }: Props) {
   return (
     <ul className="flex shrink-0" aria-hidden={hidden || undefined}>
       {products.map((p) => {

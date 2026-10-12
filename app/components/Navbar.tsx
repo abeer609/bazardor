@@ -3,7 +3,7 @@ import { Suspense } from "react";
 // import BanglaDate from "./BanglaDate";
 import CategoryNav from "./CategoryNav";
 import { getCategories } from "@/lib/api";
-import AuthButtons from "./AuthButtons.tsx";
+import AuthButtons from "./AuthButtons";
 import BanglaDate from "./BanglaDate";
 
 async function Categories() {

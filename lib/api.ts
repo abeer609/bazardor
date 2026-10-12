@@ -37,7 +37,7 @@ async function get(path: string) {
 
 // The API may return a bare array or wrap it ({ products: [...] } / { data: [...] }).
 
-interface Category {
+export interface Category {
   id: string;
   slug: string;
   nameBn: string;

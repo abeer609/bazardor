@@ -1,6 +1,9 @@
 import { Suspense } from "react";
 import { Hind_Siliguri } from "next/font/google";
 import "./globals.css";
+import PriceTicker from "./components/PriceTicker";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const hind = Hind_Siliguri({
   subsets: ["bengali", "latin"],

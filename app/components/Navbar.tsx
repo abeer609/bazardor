@@ -4,7 +4,7 @@ import { Suspense } from "react";
 import CategoryNav from "./CategoryNav";
 import { getCategories } from "@/lib/api";
 import AuthButtons from "./AuthButtons";
-import BanglaDate from "./BanglaDate";
+// import BanglaDate from "./BanglaDate";
 
 async function Categories() {
   const categories = await getCategories();
@@ -24,7 +24,7 @@ export default function Navbar() {
           </span>
           <span className="leading-tight">
             <span className="block text-lg font-bold">বাজার দর</span>
-            <BanglaDate className="block text-xs text-muted" />
+            {/* <BanglaDate className="block text-xs text-muted" /> */}
           </span>
         </Link>
         <AuthButtons />
